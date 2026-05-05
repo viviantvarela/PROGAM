@@ -1,0 +1,48 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    color: #000;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+table {
+    margin: 6px auto;
+    width: 23%;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-collapse: collapse;
+
+}
+
+
+caption {
+    caption-side: top;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+th, td {
+    border: 3px double #b5b5b5;
+    padding: 6px 8px;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 16px;
+}
+
+thead th,
+tfoot td {
+    font-weight: bold;
+    text-align: center;
+}
+
+tfoot td:last-child {
+    text-align: center;
+}
+
+tfoot td {
+    background: #fff;
+}
