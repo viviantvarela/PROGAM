@@ -1,0 +1,92 @@
+.title {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: #6aafc49d;
+    border: 2px solid #126a85;
+}
+
+nav a {
+    margin: 2px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notice {
+    background-color: #be875328;
+    border: 1px solid #126a85;
+    border-left: 8px solid #126a85;
+    border-right: 8px solid #126a85;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    margin-left: 2px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notes {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    margin-left: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(230, 203, 203, 0.432);
+}
+
+.theme {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3px;
+    font-size: 16px;
+    color: #126a85;
+}
+
+footer {
+    background-color: #126a85;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.post-imagem {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption {
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-header {
+    background-color: #126a85;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
