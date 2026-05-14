@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulário de Cadastro de Funcionários</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+<main class="caixa">
+    <h2>Formulário de Cadastro de Funcionários</h2>
+
+    <form>
+        <div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <div class="campo">
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="matricula" name="matricula" required>
+        </div>
+
+        <div class="campo">
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" required>
+        </div>
+
+        <div class="campo">
+            <label for="cargo">Cargo:</label>
+            <select id="cargo" name="cargo" required>
+                <option value="">Selecione um cargo...</option>
+                <option value="professor">Professor</option>
+                <option value="técnico administrativo">Técnico Administrativo</option>
+                <option value="técnico de laboratório">Técnico de Laboratório</option>
+                <option value="pedagogo">Pedagogo</option>
+                <option value="assistente de alunos">Assistente de Alunos</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+        </div>
+
+        <div class="campo">
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" required>
+        </div>
+
+        <button type="submit">Enviar cadastro</button>
+    </form>
+</main>
+</body>
+</html>
