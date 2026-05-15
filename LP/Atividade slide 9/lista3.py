@@ -60,7 +60,12 @@ for _ in range(5):
 
 print('A soma das partes é:', soma_pares)
         
-
+# Questão 8 - Somátorio de Números Pares
+soma_pares = 0
+soma_impares = 0
+for _ in range(10):
+    numeros: int(input('Digite 10 números:'))
+    if numeros % 2 == 0:
 
 
 
