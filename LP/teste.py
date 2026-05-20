@@ -18,5 +18,3 @@ for num in range(sequencia):
 
 print(" + ".join(str(n) for n in num_list) + f" = {soma}")
 print(f"A soma dos números é: {soma}")
-    
-
