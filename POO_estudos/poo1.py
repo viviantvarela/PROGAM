@@ -1,3 +1,6 @@
+# Aluno(a): Vivian Thaís Varela Oliveira
+# Turma: TSI 2026.2
+
 # Aplicação - Cadastro com validação
 # Criação da Classe "Funcionario" e "Email", e execução de testes
 
