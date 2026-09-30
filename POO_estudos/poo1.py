@@ -1,4 +1,5 @@
 # Aplicação - Cadastro com validação
+# Criação da Classe "Funcionario" e "Email", e execução de testes
 
 class SalarioInvalidoError(Exception):
     pass
