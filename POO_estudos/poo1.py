@@ -50,7 +50,7 @@ class Email:
             )
         self.__endereco = valor
 
-print("---TESTES DA CLASSE FUNCIONÁRIO---")
+print("---TESTES DA CLASSE FUNCIONÁRIO---\n")
 
 try:
     funcionario1 = Funcionario("Pedro Júnior", 1200 )
@@ -64,7 +64,7 @@ try:
 except ValueError as e:
     print(f"[Erro 2 - Aumento Inválido]: {e}\n")
 
-print("---TESTES DA CLASSE EMAIL---")
+print("---TESTES DA CLASSE EMAIL---\n")
 
 try:
     email1 = Email("juliana.dantas")
