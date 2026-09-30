@@ -1,4 +1,7 @@
-# (Nível 3) Criação de Classe ContaBancaria
+# Aluno(a): Vivian Thaís Varela Oliveira
+# Turma: TSI 2026.2
+
+# (Nível 3) Criação de Classe ContaBancaria e do Menu Caixa Eletrônico
 
 class ErroDeConta(Exception):
     pass
