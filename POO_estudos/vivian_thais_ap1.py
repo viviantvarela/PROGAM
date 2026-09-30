@@ -2,7 +2,7 @@
 # Turma: TSI 2026.2
 
 # (Nível 2) Aplicação - Cadastro com validação
-# Criação da Classe "Funcionario" e "Email", e execução de testes
+# Criação das Classes "Funcionario" e "Email", e execução de testes
 
 class SalarioInvalidoError(Exception):
     pass
