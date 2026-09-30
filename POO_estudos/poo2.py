@@ -26,7 +26,7 @@ class ContaBancaria:
     def sacar(self, valor: float) -> None:
         if valor <= 0:
             raise ValorInvalidoError(
-                f"[Erro - Valor Inválido] O valor de saque $({valor}) reais deve ser maior que zero!"
+                f"[Erro - Valor Inválido] O valor de saque $({valor:.2f}) reais deve ser maior que zero!"
             )
         if valor > 1000:
             raise LimiteExcedidoError(
@@ -41,7 +41,7 @@ class ContaBancaria:
     def depositar(self, valor: float) -> None:
         if valor <= 0:
             raise ValorInvalidoError(
-                f"[Erro - Valor Inválido] O valor de depósito $({valor}) reais deve ser maior que zero!"
+                f"[Erro - Valor Inválido] O valor de depósito $({valor:.2f}) reais deve ser maior que zero!"
             )
         self._saldo += valor
 
@@ -66,18 +66,17 @@ def main():
 
         try:
             if opcao == "1":
-                conta.saldo
-                print(f"O saldo da conta é {conta.saldo:.2f}")
+                print(f"O saldo da conta é ${conta.saldo:.2f}")
 
             elif opcao == "2":
-                valor = int(input("Defina o valor do saque: $  "))
+                valor = float(input("Defina o valor do saque: $  "))
                 conta.sacar(valor)
-                print(f"Saque de ${valor} reais realizado com sucesso!")
+                print(f"Saque de ${valor:.2f} reais realizado com sucesso!")
 
             elif opcao == "3":
-                valor = int(input("Defina o valor do depósito: $  "))
+                valor = float(input("Defina o valor do depósito: $  "))
                 conta.depositar(valor)
-                print(f"Depósito de ${valor} reais realizado com sucesso!")
+                print(f"Depósito de ${valor:.2f} reais realizado com sucesso!")
 
             elif opcao == "4":
                 print("Encerrando o Sistema de Caixa Eletrônico...")
@@ -89,11 +88,11 @@ def main():
         except ErroDeConta as e:
             print(f"[Erro de Operação]: {e}")
 
-        except ValueError as e:
-            print(f"[Erro de Operação]: {e}")
+        except ValueError:
+            print("[Erro de Operação]: {e}")
 
         except Exception as e:
             print(f"Erro Inesperado: {e}")
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
