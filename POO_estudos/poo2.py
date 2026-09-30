@@ -88,7 +88,7 @@ def main():
         except ErroDeConta as e:
             print(f"[Erro de Operação]: {e}")
 
-        except ValueError:
+        except ValueError as e:
             print("[Erro de Operação]: {e}")
 
         except Exception as e:
