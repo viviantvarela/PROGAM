@@ -62,16 +62,16 @@ try:
     funcionario2 = Funcionario("João Paulo", 1800)
     funcionario2.aumentar(50)
 except ValueError as e:
-    print(f"[Erro 2 - Aumento Inválido]: {e}")
+    print(f"[Erro 2 - Aumento Inválido]: {e}\n")
 
 print("---TESTES DA CLASSE EMAIL---")
 
 try:
     email1 = Email("juliana.dantas")
 except EmailInvalidoError as e:
-    print(f"[Erro 1 - Email Inválido]: {e}")
+    print(f"[Erro 1 - Email Inválido]: {e}\n")
 
 try:
     email2 = Email("gomespedro@gmailcom")
 except EmailInvalidoError as e:
-    print(f"[Erro 2 - Email Inválido]: {e}")
+    print(f"[Erro 2 - Email Inválido]: {e}\n")
